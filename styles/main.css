@@ -146,13 +146,7 @@ header .header-content {
 }
 
 header img {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  width: 40%;
-  z-index: 1;
+  display: none;
 }
 
 .section {
@@ -221,6 +215,10 @@ header img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.learn-writing img {
+  display: none;
 }
 
 .be-a-curator {
@@ -314,11 +312,24 @@ footer ul li .designer span {
   .container {
     padding: 50px 128px;
   }
+  header img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 40%;
+    z-index: 1;
+  }
   .section-boxes ul {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  .section-boxes img {
+    display: block;
   }
   footer ul li {
     -ms-flex-preferred-size: 18%;
