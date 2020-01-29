@@ -328,7 +328,7 @@ footer ul li .designer span {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  learn-writing img {
+  .learn-writing img {
     display: block;
   }
   footer ul li {
